@@ -4,16 +4,6 @@ body {
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-ul {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px 20px;
-  padding-left: 20px;
-}
-
-li {
-  flex: 0 1 auto;
-}
 
 /* Carousel Styles */
 .carousel {
@@ -39,10 +29,9 @@ li {
 }
 
 .header-container h1,
-.header-container h3,
-.header-container button {
+.header-container h3{
   width: 100%;
-  max-width: 500px;
+  max-width:900px;
   text-align: center;
 }
 
